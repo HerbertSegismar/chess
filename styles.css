@@ -38,3 +38,12 @@ h3 {
 .light {
     background-color: oklch(91.516% 0.01 155.619);
 }
+
+.piece {
+    transform: scale(0.8);
+}
+
+#queen {
+    transform: scale(1.6);
+    margin: 21px 0 0 5px;
+}

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
-* { 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,7 +10,31 @@
 h3 {
     text-align: center;
     margin: 0.5rem;
-    font-size: 0.8rem;
-    color: rgb(99, 34, 134);
-    text-shadow: 1px 1px 1px #b1afafff
+    font-size: 2rem;
+    color: hsla(279, 60%, 33%, 1.00);
+    text-shadow: 1px 1px 1px hsla(0, 1%, 69%, 1.00);
+    font-weight: 600;
+}
+
+#gameboard {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: oklch(20% 0.1 300);
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+}
+
+.dark {
+    background-color: oklch(41.612% 0.15655 291.824);
+}
+
+.light {
+    background-color: oklch(85.769% 0.14164 152.801);
 }

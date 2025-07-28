@@ -32,9 +32,9 @@ h3 {
 }
 
 .dark {
-    background-color: oklch(41.612% 0.15655 291.824);
+    background-color: oklch(61.685% 0.10576 296.988);
 }
 
 .light {
-    background-color: oklch(85.769% 0.14164 152.801);
+    background-color: oklch(91.516% 0.01 155.619);
 }

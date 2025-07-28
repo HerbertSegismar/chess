@@ -13,7 +13,7 @@ const startPieces = [
 ]
 
 function createBoard() {
-  startPieces.forEach((_startPiece, index) => {
+  startPieces.forEach((startPiece, index) => {
     const square = document.createElement("div");
     square.classList.add("square");
 
@@ -23,6 +23,8 @@ function createBoard() {
     const isDark = (row + col) % 2 !== 0;
 
     square.classList.add(isDark ? "dark" : "light");
+    square.innerHTML = startPiece;
+    square.setAttribute('square-id', index);
 
     gameboard.appendChild(square);
   });

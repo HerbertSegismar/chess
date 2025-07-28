@@ -26,6 +26,8 @@ function createBoard() {
     square.innerHTML = startPiece;
     square.setAttribute('square-id', index);
 
+    {index >= 48 ? square.classList.add('white-piece') : square.classList.add('black-piece')}
+
     gameboard.appendChild(square);
   });
 }

@@ -32,11 +32,11 @@ h3 {
 }
 
 .dark {
-    background-color: oklch(61.685% 0.10576 296.988);
+    background-color: #748DAE;
 }
 
 .light {
-    background-color: oklch(91.516% 0.01 155.619);
+    background-color: #9ECAD6;
 }
 
 .piece {
@@ -46,4 +46,12 @@ h3 {
 #queen {
     transform: scale(1.6);
     margin: 21px 0 0 6px;
+}
+
+.white-piece {
+    fill: rgba(247, 251, 255, 1);
+}
+
+.black-piece {
+    fill: rgba(20, 19, 72, 1);
 }

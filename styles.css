@@ -12,7 +12,7 @@ h3 {
     margin: 0.5rem;
     font-size: 2rem;
     color: hsla(279, 60%, 33%, 1.00);
-    text-shadow: 1px 1px 1px hsla(0, 1%, 69%, 1.00);
+    text-shadow: 1px 1px 1px oklch(75% 0 15);
     font-weight: 600;
 }
 
@@ -32,26 +32,27 @@ h3 {
 }
 
 .dark {
-    background-color: #748DAE;
+    background-color: oklch(64% 0 255);
 }
 
 .light {
-    background-color: #9ECAD6;
+    background-color: oklch(81% 0 216);
 }
 
 .piece {
     transform: scale(0.8);
 }
 
-#queen {
-    transform: scale(1.6);
-    margin: 21px 0 0 6px;
+.white {
+    fill: oklch(98% 0 248);
 }
 
-.white-piece {
-    fill: rgba(247, 251, 255, 1);
+.black {
+    fill: oklch(23% 0.1 276);
 }
 
-.black-piece {
-    fill: rgba(20, 19, 72, 1);
+.queen {
+    transform: scale(0.96);
+    width: 50px;
+    height: 50px;
 }
